@@ -1,0 +1,31 @@
+.navul{
+    background-color: blue;
+    border: 4px groove grey;
+}
+.navul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.navul li{
+    border: 3px outset black;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.navul a {
+    font-family: cursive;
+    color: black;
+}
+.navul li:hover {
+    color: yellow;
+    background-color: black;
+    border: 3px outset black;
+}
+.navul li:active {
+    color: black;
+    background-color: yellow;
+    border: 3px inset black;
+}
