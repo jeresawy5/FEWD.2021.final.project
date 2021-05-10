@@ -1,10 +1,10 @@
 body{
-    background-color: black;
+    background-color: #DA667B;
     margin: 0px;
     padding: 0px;
 }
 .navul{
-    background-color: blue;
+    background-color: #71816D;
     border: 4px groove grey;
     display: flex;
     list-style: none;
@@ -15,7 +15,7 @@ body{
     border: 3px outset black;
     margin: 4px;
     padding: 10px;
-    background-color: red;
+    background-color: #F1E0C5;
     font-size: 20px;
     border-radius: 25px;
 }
@@ -24,24 +24,31 @@ body{
     color: black;
 }
 .navul li:hover {
-    color: yellow;
-    background-color: black;
+    color: #F1E0C5;
+    background-color: #342A21;
     border: 3px outset black;
 }
 .navul li:active {
     color: black;
-    background-color: yellow;
+    background-color: #F1E0C5;
     border: 3px inset black;
+}
+.shd{
+    display: flex;
+    justify-content: center;
+    background-color: #C9B79C;
+    font-size: 40px;
+    margin: 20px;
 }
 .id1{
     display: flex;
     justify-content: center;
     font-family: cursive;
-    background-color: grey;
+    background-color: #F1E0C5;
 }
 .id2{
     display: flex;
-    background-color: red;
+    background-color: #C9B79C;
     margin-top: 40px;
     padding: 20px;
     align-items: center;
@@ -51,4 +58,46 @@ body{
     margin: 10%;
     padding: 10px;
     max-width: 20%;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F1E0C5;
+    padding: 5px;
+    margin: 5px;
+    border: 2px outset black;
+}
+.itemd{
+    width: 20%;
+    border: 2px solid black;
+    padding: 10px;
+}
+.ahd{
+    display: flex;
+    justify-content: center;
+    background-color: #C9B79C;
+    font-size: 40px;
+    margin: 20px;
+}
+.apd{
+    display: flex;
+    justify-content: center;
+    background-color: #342A21;
+    padding: 5px 20px;
+    margin: 10px;
+}
+.ap1{
+    background-color: #C9B79C;
+    border: 3px inset white;
+    padding: 10px;
+}
+.gd{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+.gi{
+    margin: 5px;
 }
