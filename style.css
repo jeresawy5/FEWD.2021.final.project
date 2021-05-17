@@ -104,3 +104,14 @@ body{
 .gi{
     margin: 5px;
 }
+.ctd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    margin: auto;
+}
+table, thead, tr, th, td{
+    border: 2px solid black;
+    background-color: #C9B79C;
+}
