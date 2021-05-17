@@ -49,18 +49,21 @@ body{
 .id2{
     display: flex;
     background-color: #C9B79C;
-    margin-top: 40px;
-    padding: 20px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
 }
 .id1p{
-    margin: 10%;
+    background-color: #F1E0C5;
     padding: 10px;
-    max-width: 20%;
+    max-width: 40%;
+    border: 2px inset black;
 }
 .items{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
     background-color: #F1E0C5;
